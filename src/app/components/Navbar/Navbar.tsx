@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
     <>
-      <nav className="bg-white px-5 py-4 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-gray-200 ">
+      <nav className="bg-white px-5 py-4 dark:bg-gray-900 absolute w-full z-20 top-0 left-0 border-gray-200 ">
         <div className="flex flex-row text-center gap-2">
           <div className="p-2 w-1/3 text-2xl font-extrabold">
             <a href="">JOJOANIME</a>
@@ -18,7 +18,7 @@ const Navbar = () => {
           </div>
           <div className="p-2 w-1/4 text-xl">
             <button className="px-5 h-8 rounded-md bg-blue-700 text-base hover:bg-blue-500">
-              Login
+              Sign in
             </button>
           </div>
         </div>
